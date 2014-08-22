@@ -33,15 +33,15 @@ Listeners
 ---------
 키보드가 숨겨 질 때 이벤트
 
- ```java
-		limitedEditText.setKeyboardHideListener(new LimitedEditText.KeyboardHideListener() {
+```java
+	limitedEditText.setKeyboardHideListener(new LimitedEditText.KeyboardHideListener() {
 
-			@Override
-			public void keyboardHide() {
-				// TODO
-			}
-		});
-'''
+		@Override
+		public void keyboardHide() {
+			// TODO
+		}
+	});
+```
 
 
 
