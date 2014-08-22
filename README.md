@@ -1,7 +1,7 @@
 LimitedEditText
 ============================
 
-“`
+
 <com.github.ggilrong.widget.LimitedEditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -14,7 +14,7 @@ LimitedEditText
     android:id="@+id/countTextView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
-“`
+
 
 ##사용방법
 * limitCount에 최대 글자수를 지정합니다.(기본 500자)
