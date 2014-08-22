@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LimitedEditText">
+        <attr name="formatter" format="string" />
+        <attr name="limitCount" format="string" />
+        <attr name="wordCountTextView" format="reference" />
+        <attr name="warningFontColor" format="color" />
+    </declare-styleable>
+
+</resources>
