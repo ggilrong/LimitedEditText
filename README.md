@@ -5,6 +5,7 @@ Usage
 -----
 ```xml
 <com.github.ggilrong.widget.LimitedEditText
+    android:id="@+id/limitedEditText"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:inputType="text|textMultiLine"
@@ -30,7 +31,17 @@ Attributes
 
 Listeners
 ---------
+키보드가 숨겨 질 때 이벤트
 
+ ```java
+		limitedEditText.setKeyboardHideListener(new LimitedEditText.KeyboardHideListener() {
+
+			@Override
+			public void keyboardHide() {
+				// TODO
+			}
+		});
+'''
 
 
 
