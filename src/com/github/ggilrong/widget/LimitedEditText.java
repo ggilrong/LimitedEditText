@@ -71,17 +71,17 @@ public class LimitedEditText extends EditText {
 
 	@SuppressLint("Recycle")
 	private void setAttrs(Context context, AttributeSet attrs) {
-		TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.LimitedEditText);
+		TypedArray typedArray = context.obtainStyledAttributes(attrs, com.github.ggilrong.widget.R.styleable.LimitedEditText);
 		SimpleTypedArrayAdapter simpleTypedArrayAdapter = SimpleTypedArrayAdapter
 				.getInstance(typedArray);
-		formatter = simpleTypedArrayAdapter.getString(R.styleable.LimitedEditText_formatter,
+		formatter = simpleTypedArrayAdapter.getString(com.github.ggilrong.widget.R.styleable.LimitedEditText_formatter,
 				DEFAULT_FORMATTER);
-		limitCount = simpleTypedArrayAdapter.getInt(R.styleable.LimitedEditText_limitCount,
+		limitCount = simpleTypedArrayAdapter.getInt(com.github.ggilrong.widget.R.styleable.LimitedEditText_limitCount,
 				DEFAULT_LIMIT);
 		wordCountTextViewId = simpleTypedArrayAdapter.getResourceId(
-				R.styleable.LimitedEditText_wordCountTextView, -1);
+				com.github.ggilrong.widget.R.styleable.LimitedEditText_wordCountTextView, -1);
 		warningFontColorResourceId = simpleTypedArrayAdapter.getColor(
-				R.styleable.LimitedEditText_warningFontColor, DEFAULT_COLOR);
+				com.github.ggilrong.widget.R.styleable.LimitedEditText_warningFontColor, DEFAULT_COLOR);
 		simpleTypedArrayAdapter.recycle();
 	}
 
