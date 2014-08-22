@@ -28,7 +28,7 @@ Attributes
 
 * wordCountTextView에 글자수를 표시 할 TextView ID를 지정해줍니다.
 
-* warningFontColor에 최대 글자수에 도달 했을 때 TextView에 보여 질 색의 Resource ID를 지정 (기본 빨간색)
+* warningFontColor에 최대 글자수에 도달 했을 때 TextView에 보여 질 색을 지정 (기본 빨간색)
 
 Listeners
 ---------
