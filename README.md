@@ -1,5 +1,6 @@
 LimitedEditText
 ============================
+![ScreenShot](https://raw.githubusercontent.com/ggilrong/LimitedEditText/master/ScreenShot.png)
 
 Usage
 -----
